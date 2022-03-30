@@ -1,0 +1,127 @@
+<!Doctype html>
+<head>
+<title>PoopiScoop Program Tech</title>
+</head>
+
+    <style>
+        #main-header{
+            text-align: center;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+			border: 1px solid black;
+
+        }
+        #main-footer{
+            text-align: center;
+            font-size: 18px;
+
+        }
+
+
+
+    </style>
+
+<br>
+<br>
+
+</head>
+<body>
+<header id="main-header">
+    <h1>PoopiScoop Tech</h1>
+</header>
+
+<br>
+
+<head>
+<meta charset="UTF-8">
+<title>HTML5 CANVAS</title>
+<style>
+canvas{
+border: 1px solid black;
+width: 100px;
+height: 700px;
+float: left;
+
+}
+
+body {
+float: middle; 
+margin: 0px;
+padding: 0px;
+}
+</head>
+</style>
+<body>
+<canvas id="myCanvas" width="640" height="480" border="solid black"></canvas>
+<div id="labelDiv">Some texxt</div></canvas>
+
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+var my_gradient = ctx.createLinearGradient(100, 100, 100, 270);
+my_gradient.addColorStop(0, "lightblue");
+my_gradient.addColorStop(1, "white");
+ctx.fillStyle = my_gradient;
+ctx.fillRect(0, 20, 1500, 1100);
+</script>
+</body>
+
+
+</html>
+<body bgcolor=#97dcf0></body> <font color=></font>
+<p><font color=#ff6347> <span style="border:2px solid Violet;" align=middle> Welcome PoopiScoop!</span>
+
+<h2 color="blue">Hei og velkommen</h2>
+
+<header>
+<a class="Logo" color=#hf1hf9> Ulike nettsider</a>
+<ul>
+ <li><a target="_blank" href="https://www.vg.no">Nyheter for i dag</a></li>
+ <li><a href="https://www.youtube.com">Tips and Tricks for Programmering</a></li>
+ <li><a href="https://www.youtube.com/channel/UCMCVgJDELl_O_4VFkdZ1s2Q">YouTube Kanal</a></li>
+ <li><a href="#">Monke again</a></li>
+ </ul>
+</header>
+
+
+<br>
+<br>
+<p><font color=#f00707> <font size=5> <font face=¨Times¨>
+
+<p>Velkommen til denne nettsiden.</p>
+<hr width="90%", hr color="#7f3h7d" align="middle" >
+
+<body> 
+
+<button onclick="playVid()" type="button">Play Video</button>
+<button onclick="pauseVid()" type="button">Pause Video</button><br> 
+
+<video id="myVideo" width="320" height="176">
+  <source src="Lofi.mp4" type="video/mp4">
+  <source src="Lofi.ogg" type="video/ogg">
+  
+<p style="font-size:15px; color:white">
+Music to relax your mind</p>
+</video>
+
+<script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+} 
+</script> 
+
+<p>YouTube video found here - <a href="https://www.youtube.com/watch?v=kWfGvZwaCBI" target="_blank">Lofi music for Bernt.</a>.</p>
+
+</body> 
+
+<button type="button" align="right" onclick="window.location.href='index2.html'">For various of info, click on me</button>
+
+</html>
